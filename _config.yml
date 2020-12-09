@@ -3,7 +3,7 @@ title: Poole
 tagline: The Jekyll Butler
 url: https://getpoole.com
 paginate: 1
-baseurl: "https://redstone-wb.github.io/"
+baseurl: "https://redstone-wb.github.io"
 permalink: pretty
 
 # Gems
