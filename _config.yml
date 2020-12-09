@@ -1,9 +1,9 @@
 # Setup
-title: Poole
+title: Redstone_using_Poole
 tagline: The Jekyll Butler
-url: https://getpoole.com
+url: https://redstone-wb.github.io
 paginate: 1
-baseurl: "https://Redstone-WB.github.io/Redstone-WB.github.io"
+baseurl: "https://redstone-wb.github.io/"
 permalink: pretty
 
 # Gems
