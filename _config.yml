@@ -3,8 +3,9 @@ title: Redstone_using_Poole
 tagline: The Jekyll Butler
 url: https://redstone-wb.github.io
 paginate: 1
-baseurl: "https://redstone-wb.github.io/"
+baseurl: ""
 permalink: pretty
+remote_theme: mmistakes/minimal-mistakes
 
 # Gems
 plugins:
