@@ -4,8 +4,6 @@ date: 2020-12-12 23:59:00 -0400
 categories: ML, DataAnalytics
 ---
 
-### Author : Taewan Kim 
-
 #### 1. Set up a problem -> what is Y?
 #### 2. Data collection -> collect X and Y
 - (Traditionally) design a study, perform experiments, and collect data
