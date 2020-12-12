@@ -259,17 +259,15 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-  # _docs
   - scope:
       path: ""
-      type: docs
+      type: posts
     values:
-      sidebar:
-      nav: "docs"
-
-      # layout: single
-      # author_profile: true
-      # read_time: true
-      # comments: # true
-      # share: true
-      # related: true
+      # sidebar:
+      #   nav: "docs"
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
