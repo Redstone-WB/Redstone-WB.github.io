@@ -1,22 +1,23 @@
 ---
-title: "General Procedure of ML"
+title: "Simple Procedure of Data analytics"
 date: 2020-12-12 23:59:00 -0400
 categories: jekyll update
 ---
 
+### Author : Taewan Kim 
 
-#### Set up a problem -> what is Y?
-#### Data collection -> collect X and Y
+#### 1. Set up a problem -> what is Y?
+#### 2. Data collection -> collect X and Y
 - (Traditionally) design a study, perform experiments, and collect data
 - (Now) dig up a database and collect any related data 
 
-#### Preprocessing
+#### 3. Data Preprocessing
 - Transform data into usable form 
 
-#### Exploratory data analysis (EDA)
+#### 4. Exploratory data analysis (EDA)
 - See how data looks like 
 
-#### Data analysis (prediction)
+#### 5. Data analysis (prediction)
 - Initial data size: n = 100M, p = 10k
 - Separate training and test set (often by data collection time)
 - Select features via univariate statistical test (t-test, cor-test)
@@ -25,4 +26,4 @@ categories: jekyll update
 - Model selection via cross-validation (methods & parameters)
 - Test performance over the test set
 
-#### Validation with a totally new data set (often not existing data when the model is built)
+#### 6. Validation with a totally new data set (often not existing data when the model is built)
