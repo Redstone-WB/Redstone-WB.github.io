@@ -32,14 +32,14 @@ Coursera : Structuring Machine Learning Projects (Lecturer : Andrew Ng 🥇 )
 
 ### 4. Chain of Assumptions in ML
 
-1. Fit training set well on cost function (특정 분야에서는, 인간과 유사한 수준을 의미함)
+##### 1. Fit training set well on cost function (특정 분야에서는, 인간과 유사한 수준을 의미함)
 
-##### 만약 Learning Alg. Train 과정에서 metric (accuracy, F1-score 등)이 잘 안 나온다면 쓰는 방법론
+만약 Learning Alg. Train 과정에서 metric (accuracy, F1-score 등)이 잘 안 나온다면 쓰는 방법론
 
       - Train Bigger Network
       - Adam Optimizer
 
-2. Fit Dev set well on cost function
+##### 2. Fit Dev set well on cost function
 
 cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용하는 Sets)
 
@@ -48,13 +48,13 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
       - Regularization
       - Bigger Training Set
 
-3. Fit test set well on cost function
+##### 3. Fit test set well on cost function
 
 ##### Test Set에서 Alg.이 잘 Work 하지 않는다면?
 
       - Bigger Dev. Set. (∵Dev. set 에서 Overtraining 이 이루어졌을 수 있기 때문.)
 
-4. Fit well real word
+##### 4. Fit well real word
 
 ###### 실제 dataset에서의 inference 정확도가 좋지 않다면?
 
@@ -87,7 +87,7 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
 - Choose a Dev set and Test set that reflect data that you expect to get in future
 - Dev Set과 Test Set이 동일한 Distribution을 가지도록
 
-1. Old way (Data less than 10,000 rows)
+##### 1. Old way (Data less than 10,000 rows)
    | Train | Test |
    | -------------- |------|
    | -------70%------- | ---30%---|
@@ -96,19 +96,19 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
    | --------------- | ------- | ------- |
    | ------60%------ | --20%-- | --20%-- |
 
-2. Contemporary way (Data about 1,000,000 rows)
+##### 2. Contemporary way (Data about 1,000,000 rows)
 
    | Train                                                                              | Val  | Test |
    | ---------------------------------------------------------------------------------- | ---- | ---- |
    | ------------------------------------------98%------------------------------------- | -1%- | -1%- |
 
-3. When to change Dev/Test set and metric
+##### 3. When to change Dev/Test set and metric
 
 - 현재의 Evaluation Metric이 사용자 Preference를 제대로 반영하지 못하고 있는 경우
 
 ### 8. Error
 
-1. e.g. Alg A 의 Error는 3%, Alg B의 Error는 5% 지만 A의 Error가 중대한 실수(pornographic image를 cat으로 분류)를 저지르는 경우에는 어떻게 해결할 수 있을까?
+##### 1. e.g. Alg A 의 Error는 3%, Alg B의 Error는 5% 지만 A의 Error가 중대한 실수(pornographic image를 cat으로 분류)를 저지르는 경우에는 어떻게 해결할 수 있을까?
    => 가중치로 해결
 
 ![weights](./img/struct_ml_pjt_01_w.png)
@@ -117,7 +117,7 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
 - Defining Evaluation metric (Target을 place 시키는 것) 과 Do well on some metric (Target에 잘 맞추는 것) 은 별개의 문제임.
   - Orthogonalization의 Concept,,, 두 개의 별도 nobs를 가지고 working
 
-1. Bayes Optimal Error : Best possible error
+##### 2. Bayes Optimal Error : Best possible error
 
 ### 9. ML Alg가 Human level보다 못하고 있는 경우 쓸 수 있는 technics
 
