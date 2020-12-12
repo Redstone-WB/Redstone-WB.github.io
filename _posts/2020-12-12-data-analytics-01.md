@@ -139,7 +139,7 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
 - 예제
 
   | Error 유형   | 예제1  | 예제2  |
-  | ---------   | ----- | ----- |
+  | ----------- | ----- | ----- |
   | Human Error | 1%    | 7.5%  |
   | Train Error | 8%    | 8%    |
   | Dev Error   | 10%   | 10%   |
