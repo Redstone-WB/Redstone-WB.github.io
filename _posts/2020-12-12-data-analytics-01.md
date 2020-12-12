@@ -113,7 +113,7 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
 ##### 1. e.g. Alg A 의 Error는 3%, Alg B의 Error는 5% 지만 A의 Error가 중대한 실수(pornographic image를 cat으로 분류)를 저지르는 경우에는 어떻게 해결할 수 있을까?
    => 가중치로 해결
 
-![weights](./img/struct_ml_pjt_01_w.png)
+![weights_2](./img/struct_ml_pjt_01_w.png)
 
 - 원래 분모는 dev의 개수이지만 가중치가 추가되면서 normalizing constant가 바뀜.
 - Defining Evaluation metric (Target을 place 시키는 것) 과 Do well on some metric (Target에 잘 맞추는 것) 은 별개의 문제임.
@@ -135,11 +135,11 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
 
 - bias-variance tradeoff (Link : https://ko.wikipedia.org/wiki/%ED%8E%B8%ED%96%A5-%EB%B6%84%EC%82%B0_%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C%EC%98%A4%ED%94%84)
 - 예제
-  | Error 유형 | 예제1 | 예제2 |
-  | -----|------|-----|
-  | Human Error | 1% | 7.5% |
-  | Train Error | 8% | 8% |
-  | Dev Error | 10% | 10% |
+  | Error 유형   | 예제1  | 예제2  |
+  | ---------   | ----- | ----- |
+  | Human Error | 1%    | 7.5%  |
+  | Train Error | 8%    | 8%    |
+  | Dev Error   | 10%   | 10%   |
 
 - 예제 1 Solution : Bias에 집중
   - Alg이 Train set에 Fit 잘 되지 X
