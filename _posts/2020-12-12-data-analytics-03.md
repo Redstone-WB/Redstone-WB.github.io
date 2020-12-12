@@ -1,7 +1,7 @@
 ---
 title: "Bias-Variance Tradeoff and Overfitting"
 date: 2020-05-02 23:59:00 -0400
-categories: jekyll update
+categories: ML, DataAnalytics
 ---
 
 

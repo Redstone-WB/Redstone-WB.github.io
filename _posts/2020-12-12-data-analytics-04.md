@@ -1,7 +1,7 @@
 ---
 title: "앙상블 기법 소개"
 date: 2020-05-02 23:59:00 -0400
-categories: jekyll update
+categories: ML, DataAnalytics
 ---
 
 

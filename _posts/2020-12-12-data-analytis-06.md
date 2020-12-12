@@ -1,7 +1,7 @@
 ---
 title: "Lookalike model"
 date: 2020-05-05 23:59:00 -0400
-categories: jekyll update
+categories: ML, DataAnalytics
 ---
 
 ## Lookalike Model
