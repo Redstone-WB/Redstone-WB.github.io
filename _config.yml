@@ -19,7 +19,7 @@ locale: "en-US"
 title: "Site Title"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "Redstone"
+name: "Redstone_Archives"
 description: "For Archiving study & work materials"
 url: "https://redstone-wb.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
@@ -263,8 +263,8 @@ defaults:
       path: ""
       type: posts
     values:
-      # sidebar:
-      #   nav: "docs"
+      sidebar:
+        nav: "foo"
       layout: single
       author_profile: true
       read_time: true
