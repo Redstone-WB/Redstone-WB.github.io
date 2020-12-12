@@ -73,7 +73,7 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
 3.  P와 R의 조화평균
 
 ![weights](./img/struct_ml_pjt_01_f1_score.png)
-<img src="img/struct_ml_pjt_01_f1_score.png" class="img-responsive" alt=""> </div>
+<img src="img/struct_ml_pjt_01_f1_score.pngs" class="img-responsive" alt=""> </div>
 
 
     - Reasonable way to combine R and P
@@ -90,8 +90,8 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
 - Dev Set과 Test Set이 동일한 Distribution을 가지도록
 
 ##### 1. Old way (Data less than 10,000 rows)
-   | Train | Test |
-   | -------------- |------|
+   | Train             | Test     |  
+   | --------------    |------    |
    | -------70%------- | ---30%---|
 
    | Train           | Val     | Test    |
