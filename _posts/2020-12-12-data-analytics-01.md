@@ -73,6 +73,8 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
 3.  P와 R의 조화평균
 
 ![weights](./img/struct_ml_pjt_01_f1_score.png)
+<img src="img/struct_ml_pjt_01_f1_score.png" class="img-responsive" alt=""> </div>
+
 
     - Reasonable way to combine R and P
     - 잘 정의된 Dev. Set 도 중요, (P and R을 측정하기 위해 Dev. Set을 사용)
