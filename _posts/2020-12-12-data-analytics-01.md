@@ -90,9 +90,10 @@ cf. (Dev set = Holdout Cross Validation Set, Hyperparam. Tuning을 위해 사용
 - Dev Set과 Test Set이 동일한 Distribution을 가지도록
 
 ##### 1. Old way (Data less than 10,000 rows)
-   |      Train        |   Test    |  
-   | ----------------- | --------- |
-   | -------70%------- | ---30%--- |
+   | Train           | Test    |
+   | --------------- | ------- |
+   | ------60%------ | --30%-- |
+   
 
    | Train           | Val     | Test    |
    | --------------- | ------- | ------- |
