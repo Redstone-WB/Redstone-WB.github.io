@@ -96,11 +96,11 @@ author:
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "A self-motivated learner"
   location: "Seoul"
-  email: "@gmail.com"
+  email: "pure3512@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:pure3512@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
