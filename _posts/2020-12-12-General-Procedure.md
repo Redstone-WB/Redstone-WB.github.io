@@ -1,7 +1,8 @@
-<!-- ---
+---
 title: "Simple Procedure of Data analytics"
 date: 2020-12-12 23:59:00 -0400
 categories: ML, DataAnalytics
+published: false
 ---
 
 ### Author : Taewan Kim
@@ -26,4 +27,4 @@ categories: ML, DataAnalytics
 - Model selection via cross-validation (methods & parameters)
 - Test performance over the test set
 
-#### 6. Validation with a totally new data set (often not existing data when the model is built) -->
+#### 6. Validation with a totally new data set (often not existing data when the model is built)
