@@ -1,7 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "머신러닝 스터디"
+  #   url: /parent-1-page-url/
+  #   children:
+  #     - title: "Child Link 1"
+  #       url: /child-1-page-url/
+  #     - title: "Child Link 2"
+  #       url: /child-2-page-url/
+
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -11,21 +19,30 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-foo:
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
+sidebar:
+  title: "Contents"
+  nav: contents
 
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
+contents:
+  - title: "머신러닝 스터디"
     children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
+      - title: "머신러닝 프로젝트 구조화 : 1"
+        url: /jekyll/update/data-analytics-01/
+# foo:
+# - title: "머신러닝 스터디"
+#   url: /parent-1-page-url/
+#   children:
+#     - title: "Child Link 1"
+#       url: /child-1-page-url/
+#     - title: "Child Link 2"
+#       url: /child-2-page-url/
+
+# - title: "Parent Link 2"
+#   url: /parent-2-page-url/
+#   children:
+#     - title: "Child Link 1"
+#       url: /child-1-page-url/
+#     - title: "Child Link 2"
+#       url: /child-2-page-url/
+#     - title: "Child Link 3"
+#       url: /child-3-page-url/
