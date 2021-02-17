@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
@@ -101,9 +101,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:pure3512@gmail.com"
-    - label: " LinkedIn"
-      icon: "fab fa-linkedin-in"
-      url: "https://www.linkedin.com/in/hongseok-ha-a5b269188/"
+    # - label: " LinkedIn"
+    #   icon: "fab fa-linkedin-in"
+    #   url: "https://www.linkedin.com/in/hongseok-ha-a5b269188/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
