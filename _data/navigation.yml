@@ -1,23 +1,23 @@
 # main links
-main:
-  # - title: "머신러닝 스터디"
-  #   url: /parent-1-page-url/
-  #   children:
-  #     - title: "Child Link 1"
-  #       url: /child-1-page-url/
-  #     - title: "Child Link 2"
-  #       url: /child-2-page-url/
+# main:
+# - title: "머신러닝 스터디"
+#   url: /parent-1-page-url/
+#   children:
+#     - title: "Child Link 1"
+#       url: /child-1-page-url/
+#     - title: "Child Link 2"
+#       url: /child-2-page-url/
 
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+# - title: "Quick-Start Guide"
+#   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+# - title: "About"
+#   url: https://mmistakes.github.io/minimal-mistakes/about/
+# - title: "Sample Posts"
+#   url: /year-archive/
+# - title: "Sample Collections"
+#   url: /collection-archive/
+# - title: "Sitemap"
+#   url: /sitemap/
 
 sidebar:
   title: "Contents"
